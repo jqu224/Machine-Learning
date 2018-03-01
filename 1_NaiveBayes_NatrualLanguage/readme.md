@@ -32,13 +32,13 @@ Jqu03
 
     In the prompt, it would print a list of .txt file in current directory:
 
-    ==============================================
+    ---
            file 0 is amazon_cells_labelled.txt
            file 1 is otherfiles.txt
            file 2 is yelp_labelled.txt
            file 3 is yourfiles_copy.txt
            file 4 is imdb_labelled.txt
-    ==============================================
+    ---
 
     Enter the file's index: <0, 1, 2,...>: 
     >[Type your desired index number HERE]
