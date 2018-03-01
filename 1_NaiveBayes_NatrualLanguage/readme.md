@@ -20,7 +20,6 @@
     Try different d values, 1000, 500, 250, 125, and report what performance you get for these different sizes of vocabulary.
     
     
-======= ========= ======= =========
 ## Manual, Project 1 Machine Learning 135
 Jqu03
 
