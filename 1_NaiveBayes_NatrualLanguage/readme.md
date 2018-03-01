@@ -89,6 +89,7 @@ Jqu03
       word tokenization and vectorization:
     > import sklearn, nltk, string
     > from sklearn.model_selection import train_test_split
+    
     > from sklearn.feature_extraction.text import CountVectorizer
     
     to calculate the probability, use numpy
