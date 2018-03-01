@@ -23,7 +23,8 @@
 ## Manual, Project 1 Machine Learning 135
 Jqu03
 
-0) To execute, 
+
+#### 0) To execute, 
     there is no need to modify the code for different file name, 
     simply type the following in prompt:
     
@@ -42,7 +43,8 @@ Jqu03
     Enter the file's index: <0, 1, 2,...>: 
     >[Type your desired index number HERE]
 
-1) Schema Behind:
+
+#### 1) Schema Behind:
     <a> prior setting: 
         remove the most freq 90% words: 
             max_df=.9
@@ -80,7 +82,7 @@ Jqu03
         training data: tnd
         test data: tsd
 
-2) Package Used:
+#### 2) Package Used:
     to get the .txt files in current directory:
     > import glob
 
