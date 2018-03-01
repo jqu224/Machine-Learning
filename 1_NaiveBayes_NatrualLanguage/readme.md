@@ -1,4 +1,5 @@
-
+![jqu03_d](jqu03_d.png)
+![jqu03_m](jqu03_m.png)
 
 Requirements:
   We have three datasets collected from three domains: imdb.com, amazon.com, yelp.com. Each dataset consists of sentences with sentiment labels (1 for positive and 0 for negative) extracted from . These form 3 datasets for the assignment.
@@ -27,7 +28,7 @@ Jqu03
     there is no need to modify the code for different file name, 
     simply type the following in prompt:
     
-    >>> python3 firstPythonProject_jqu03.py
+    > python3 firstPythonProject_jqu03.py
 
     In the prompt, it would print a list of .txt file in current directory:
 
@@ -40,7 +41,7 @@ Jqu03
     ==============================================
 
     Enter the file's index: <0, 1, 2,...>: 
-    >>>[Type your desired index number HERE]
+    >[Type your desired index number HERE]
 
 1) Schema Behind:
     <a> prior setting: 
@@ -82,29 +83,29 @@ Jqu03
 
 2) Package Used:
     to get the .txt files in current directory:
-    >>> import glob
+    > import glob
 
     for preprocessing including:
       instance splitting, 
       word tokenization and vectorization:
-    >>> import sklearn, nltk, string
-    >>> from sklearn.model_selection import train_test_split
-    >>> from sklearn.feature_extraction.text import CountVectorizer
+    > import sklearn, nltk, string
+    > from sklearn.model_selection import train_test_split
+    > from sklearn.feature_extraction.text import CountVectorizer
     
     to calculate the probability, use numpy
-    >>> import numpy
+    > import numpy
     
     to throw the error:
-    >>> import sys
+    > import sys
 
     for the boundary cases where prediction of 1 == prediction of 0:
-    >>> import random
+    > import random
 
     to plot the figure:
-    >>> import matplotlib
-    >>> matplotlib.use('Agg') 
-    >>>	import matplotlib.pyplot as plt 
+    > import matplotlib
+    > matplotlib.use('Agg') 
+    >	import matplotlib.pyplot as plt 
 
     [ NOTE ] 
         to use nltk package:
-        >>> nltk.download('punkt')
+        > nltk.download('punkt')
