@@ -108,4 +108,5 @@ Jqu03
 
     [ NOTE ] 
         to use nltk package:
+        
         > nltk.download('punkt')
