@@ -1,7 +1,7 @@
 ![jqu03_d](jqu03_d.png)
 ![jqu03_m](jqu03_m.png)
 
-Requirements:
+## Requirements:
   We have three datasets collected from three domains: imdb.com, amazon.com, yelp.com. Each dataset consists of sentences with sentiment labels (1 for positive and 0 for negative) extracted from . These form 3 datasets for the assignment.
   Each dataset is given in a single text file, with each line as an instance. Each line is a list of space separated words, which essentially a sentence, followed by a tab character, and then followed by the label. Here is a snippet from the yelp dataset:
       Crust is not good. 0 
@@ -11,7 +11,7 @@ Requirements:
   In this assignment you are ask to implement a Naive Bayes classifier, 
   which has been discussed in class, to predict sentiment labels of sentences.
 
-Experiments:
+## Experiments:
 
   1) Run Naive Bayes with smoothing parameter m = 0.1, 0.5, 2.5, 12.5. 
     Plot the cross validation performance as a function of the smoothing parameter. What observations can you make about the results?
@@ -21,7 +21,7 @@ Experiments:
     
     
 ======= ========= ======= =========
-Manual, Project 1 Machine Learning 135
+## Manual, Project 1 Machine Learning 135
 Jqu03
 
 0) To execute, 
@@ -33,11 +33,11 @@ Jqu03
     In the prompt, it would print a list of .txt file in current directory:
 
     ==============================================
-    #       file 0 is amazon_cells_labelled.txt
-    #       file 1 is otherfiles.txt
-    #       file 2 is yelp_labelled.txt
-    #       file 3 is yourfiles_copy.txt
-    #       file 4 is imdb_labelled.txt
+           file 0 is amazon_cells_labelled.txt
+           file 1 is otherfiles.txt
+           file 2 is yelp_labelled.txt
+           file 3 is yourfiles_copy.txt
+           file 4 is imdb_labelled.txt
     ==============================================
 
     Enter the file's index: <0, 1, 2,...>: 
