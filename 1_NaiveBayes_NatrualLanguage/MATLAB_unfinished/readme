@@ -1,1 +1,6 @@
 this is an unfinished version of project 1
+
+to execute: 
+  put amazon_cells_labelled imdb_labelled yelp_labelled.txt in the same directory
+  run project1scipt only (it would execute the other function scripts)
+
