@@ -5,6 +5,6 @@ b - Plot training errors and validation errors against different settings of hyp
   
 Datasets:
 
-  MNIST dataset - patients’ story
+- MNIST dataset - patients’ story
   
-  Titanic dataset - Dead or Alive
+- Titanic dataset - Dead or Alive
